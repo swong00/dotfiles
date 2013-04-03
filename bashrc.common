@@ -1,6 +1,9 @@
 #! /bin/bash
-
-alias ls='ls -lah --color'
+if [ -e /etc/redhat-release ]; then
+	alias ls='ls -lah --color'
+else
+	alias ls='ls -lah -G'
+fi	
 alias st='stree'
 alias v='vim -o'
 alias e='subl'
