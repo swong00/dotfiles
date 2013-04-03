@@ -8,6 +8,6 @@ alias st='stree'
 alias v='vim -o'
 alias e='subl'
 
-if [ "$SSH_TTY" ]; then
+if [ "$SSH_TTY" ] || [ -t 0 ]; then
     . ~/dotfiles/z.sh
 fi
