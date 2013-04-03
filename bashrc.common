@@ -1,5 +1,6 @@
 #! /bin/bash
 
+alias ls='ls -lah --color'
 alias st='stree'
 alias v='vim -o'
 alias e='subl'
