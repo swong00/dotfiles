@@ -1,0 +1,7 @@
+#! /bin/bash
+
+alias st='stree'
+alias v='vim -o'
+alias e='subl'
+
+. z.sh
